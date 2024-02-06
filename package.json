@@ -1,0 +1,40 @@
+{
+  "name": "rdio-back-node",
+  "version": "1.0.0",
+  "description": "Rdio Study Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloHMoreti/Rdio-Back-Node.git"
+  },
+  "keywords": [
+    "Rdio",
+    "Radio",
+    "Gerenciamento",
+    "música",
+    "music",
+    "nodejs"
+  ],
+  "author": "PauloHMoreti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloHMoreti/Rdio-Back-Node/issues"
+  },
+  "homepage": "https://github.com/PauloHMoreti/Rdio-Back-Node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
